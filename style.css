@@ -8,3 +8,84 @@
      padding: 0;
      margin: 0;
  }
+
+a{
+    text-decoration: none;
+}
+
+.container {
+    outline: solid 3px red; 
+
+    width: 1440px;
+
+}
+/* хедер */
+.container.header{
+   display:flex;
+   justify-content: center;
+   background-color: #012D63;
+}
+
+.container.header::before{
+    content: '';
+    background-image: url(/images/Nike.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 60px;
+    margin-top: 16px;
+    margin-bottom: 17px;
+}
+
+.nav-list{
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 33px;
+}
+
+.nav-items{
+    padding-right: 29px;
+}
+
+.nav-items:nth-child(1){
+    padding-left: 152px;
+}
+
+.nav-items:nth-child(5){
+    padding-right: 20px;
+}
+
+.nav-link{
+    color: #C7C7C7;
+}
+
+.nav-link:hover,
+.nav-link:focus{
+    color: #FFFFFF;
+}
+
+.language-list{
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 33px;
+}
+
+.language-items{
+    padding-left: 5px;
+}
+
+.language-items:nth-child(1){
+    padding-left: 73px;
+}
+
+.language-button{
+    color: #DCDCDC;
+    border: none;
+    background: none;
+}
+
+.language-button:hover,
+.language-button:focus {
+    color: #FFFFFF;
+}
