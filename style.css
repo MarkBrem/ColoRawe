@@ -14,9 +14,11 @@ a{
 }
 
 .container {
-    outline: solid 3px red; 
+    outline: solid 3px red;  
 
     width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 /* хедер */
@@ -58,11 +60,11 @@ a{
 
 .nav-link{
     color: #C7C7C7;
-}
-
-.nav-link:hover,
-.nav-link:focus{
-    color: #FFFFFF;
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 28px;
 }
 
 .language-list{
@@ -83,9 +85,97 @@ a{
     color: #DCDCDC;
     border: none;
     background: none;
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 28px;
 }
 
+.nav-link:hover,
+.nav-link:focus,
 .language-button:hover,
 .language-button:focus {
     color: #FFFFFF;
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+}
+
+/* hero */
+.section.hero{
+    background-image: url(./images/hero/Group\ 37\ \(1\)\ 1.png);
+    background-size: 1440px;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #FFFFFF;
+}
+
+.hero-items{
+    padding-left: 164px;
+}
+
+ .hero-items:nth-child(1){
+    padding-left: 195px;
+} 
+
+.hero-items:nth-child(2){
+    padding-left: 156px;
+}
+
+.hero-items:nth-child(4){
+    width: 508px;
+}
+
+.hero-title{
+    padding-top: 179px; 
+    font-family: 'PT Serif';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 64px;
+
+}
+
+.hero-secondtitle{
+    font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 144px;
+        line-height: 192px;
+}
+
+.hero-text{
+    font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 72px;
+        line-height: 96px;
+
+}
+
+.hero-boldtext{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+}
+
+.hero-button{
+    margin-bottom: 183px; 
+    margin-top: 41px; 
+
+    border: none;
+    background-color: #8E32C6;
+    color: #FFFFFF;
+    padding: 20px 61px 19px 61px;
+
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
 }
