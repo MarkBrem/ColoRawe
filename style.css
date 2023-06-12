@@ -107,9 +107,9 @@ a{
 /* hero */
 .section.hero{
     background-image: url(./images/hero/Group\ 37\ \(1\)\ 1.png);
-    background-size: 1440px;
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     color: #FFFFFF;
 }
 
@@ -156,6 +156,17 @@ a{
 
 }
 
+.hero-title::before{
+    content: '';
+    display: block;
+    background-image: url(/images/Nike.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 160px;
+        height: 120px;
+}
+
 .hero-boldtext{
     font-family: 'Roboto';
         font-style: normal;
@@ -178,4 +189,154 @@ a{
         font-weight: 400;
         font-size: 24px;
         line-height: 28px;
+}
+
+/* advanteges */
+.section.advantages{
+display: flex;
+background-image: url(./images/advanteges/Group\ 8\ 1.png);
+background-position:center;
+background-size: cover;
+
+}
+
+.advantages-list{
+display: flex;
+margin-left: auto;
+margin-right: auto;
+justify-content: center;
+
+padding-left: 50px;
+padding-right: 50px;
+
+border: 5px solid #8E32C6;
+margin: 105px 165px;
+}
+
+.advantages-text{
+    font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 48px;
+        text-align: center;
+    
+        color: #FFFFFF;
+
+        padding-right: 145px;
+        padding-top: 25px;
+}
+
+.stars{
+    padding-left: 50px;
+}
+
+.stars::after{
+    content: '';
+    display: block;
+    background-image: url(./images/advanteges/Звёзды\ 1.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 240px;
+    height: 240px; 
+
+    margin-top: 4px;
+} 
+
+.paints {
+    padding-top: 25px;
+    padding-bottom: 19px;
+}
+
+.paints::before{
+    content: '';
+        display: block;
+        background-image: url(./images/advanteges/Краски\ 1\ \(1\).svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 240px;
+        height: 240px;
+}
+
+.car{
+    padding-right: 50px;
+}
+
+.car::after{
+    content: '';
+        display: block;
+        background-image: url(./images/advanteges/Грузан\ 1.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 240px;
+        height: 240px;
+}
+
+/* reviews */
+.section.reviews{
+    background-image: url(./images/reviews/Group\ 6\ 1.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.container.reviews{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.reviews-title{
+font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    margin-left: 633px;
+    margin-right: 632px;
+}
+
+.reviews-list{
+    display: flex;
+    justify-content: center;
+
+    margin-left: 244px;
+    margin-right: 245px;
+    margin-top: 114px;
+    margin-bottom: 114px;
+}
+
+.reviews-items{
+    padding-right: 114px;
+}
+
+.reviews-items:nth-child(3){
+    padding-right: 0px;
+}
+
+.blue{
+    background-image: url(./images/reviews/Group\ 40.png);
+    width: 255px;
+    height: 292px;
+}
+
+.pink{
+    background-image: url(./images/reviews/Group\ 39.png);
+    width: 255px;
+    height: 292px;
+}
+
+.orange{
+    background-image: url(./images/reviews/Group\ 38.png);
+    width: 255px;
+    height: 292px;
 }
