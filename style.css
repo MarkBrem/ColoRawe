@@ -14,7 +14,7 @@ a{
 }
 
 .container {
-    /* outline: solid 3px red;   */
+    /* outline: solid 3px red;    */
 
     width: 1440px;
     margin-left: auto;
@@ -204,15 +204,16 @@ background-size: cover;
 
 }
 
+.container.advantages{
+    display: flex;
+    justify-content: space-between;
+}
+
 .advantages-list{
 display: flex;
 margin-left: auto;
 margin-right: auto;
 justify-content: center;
-
-padding-left: 50px;
-padding-right: 50px;
-
 border: 5px solid #8E32C6;
 margin: 105px 165px;
 }
@@ -227,13 +228,28 @@ margin: 105px 165px;
     
         color: #FFFFFF;
 
-        padding-right: 145px;
         padding-top: 25px;
 }
 
-.stars{
+.advantages-items:nth-child(1),
+.advantages-items:nth-child(3){
+    padding-right: 50px;
     padding-left: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
+
+.advantages-items:nth-child(2) {
+    padding-right: 95px;
+    padding-left: 95px;
+    margin-top: 25px;
+    margin-bottom: 19px;
+}
+
+.advantages-items:not(:last-child){
+    border-right: 1px solid #FFFFFF;
+}
+
 
 .stars::after{
     content: '';
@@ -249,7 +265,6 @@ margin: 105px 165px;
 } 
 
 .paints {
-    padding-top: 25px;
     padding-bottom: 19px;
 }
 
@@ -264,9 +279,6 @@ margin: 105px 165px;
         height: 240px;
 }
 
-.car{
-    padding-right: 50px;
-}
 
 .car::after{
     content: '';
@@ -286,6 +298,11 @@ margin: 105px 165px;
     background-size: cover;
 }
 
+.flowers{
+    position: absolute;
+    left: 0;
+    top: 1360px;
+}
 
 .container.reviews{
     display: flex;
@@ -433,6 +450,8 @@ margin-bottom: 37px;
     color: #FFF;
 }
 
+
+
 .container.footer{
     display: flex;
     justify-content: space-between;
@@ -458,6 +477,11 @@ margin-bottom: 37px;
     padding-right: 164px;
     padding-bottom: 10px;
 }
+
+ .footer-item:nth-child(1),
+ .footer-questions:nth-child(1){
+    margin-top: 45px;
+} 
 
 .line{
     margin-left: auto;
@@ -491,16 +515,16 @@ margin-bottom: 37px;
         height: 81px;
 }
 
-.secondary-footer-item{
+.secondaryfooter-item{
     padding-left: 165px;
     padding-bottom: 7px;
 }
 
-.secondary-footer-item:nth-child(1){
+.secondaryfooter-item:nth-child(1){
     padding-top: 24px;
 }
 
-.secondary-footer-text{
+.secondaryfooter-text{
     font-size: 18px;
     font-family: 'Roboto';
     font-weight: 300;
