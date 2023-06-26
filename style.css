@@ -34,7 +34,7 @@ a{
 
 .container.header::before{
     content: '';
-    background-image: url(/images/Nike.png);
+    background-image: url(./images/Nike.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -163,7 +163,7 @@ a{
 .hero-title::before{
     content: '';
     display: block;
-    background-image: url(/images/Nike.png);
+    background-image: url(./images/Nike.png);
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
