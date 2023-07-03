@@ -22,7 +22,7 @@ a{
 
 }
 /* хедер */
-.section.header{
+header{
     background-color: #012D63;
 }
 
@@ -445,7 +445,7 @@ margin-bottom: 37px;
 } 
 
 /* footer */
-.section.footer{
+footer{
     background-color: #021635;
     color: #FFF;
 }
